@@ -87,3 +87,7 @@ for epoch in range(training_args.num_train_epochs):
 # 在验证集上进行最终评估
 final_eval_results = trainer.evaluate()
 print(f"Final Test Accuracy: {final_eval_results['eval_accuracy']:.4f}")
+
+'''
+The outcome: Final Test Accuracy: 0.5030
+'''
