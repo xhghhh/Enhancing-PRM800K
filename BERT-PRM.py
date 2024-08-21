@@ -89,5 +89,5 @@ final_eval_results = trainer.evaluate()
 print(f"Final Test Accuracy: {final_eval_results['eval_accuracy']:.4f}")
 
 '''
-The outcome: Final Test Accuracy: 0.5030
+The outcome: Final Test Accuracy: 0.4660
 '''
