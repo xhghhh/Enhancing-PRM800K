@@ -1,7 +1,7 @@
 # this is the main file of the project, which fine-tunes the llama 8B model to be a classifier
 # dataset: PRM800K
 
-# input: instruction, responses, and next response
+# input: instruction, responses, next response and the answer
 # output: predicted label (0, 1 or 2), where 0 means wrong, 1 means ambiguous, and 2 means correct.
 
 # the structure of this file: preprocess the dataset, fine-tune the model, and evaluate the performance on the test set.
